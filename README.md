@@ -2,6 +2,9 @@
 
 Doublepulsar detection script (https://github.com/countercept/doublepulsar-detection-script/) rewritten into C#, added user interface.
 
+![alt text](pics/screen.png "Screen")
+
+
 # License
 ## User interface ##
 Copyright (c) 2017, Hynek Petrak
