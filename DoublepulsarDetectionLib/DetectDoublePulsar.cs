@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NLog;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
 using System.Net.Sockets;
-using NLog;
 
-namespace DoublepulsarDetectionWPF {
-    class DetectDoublePulsar {
+namespace DoublepulsarDetectionLib {
+    public class DetectDoublePulsar {
 
         Logger _l = LogManager.GetCurrentClassLogger();
 
@@ -42,11 +38,11 @@ namespace DoublepulsarDetectionWPF {
             return result;
         }
         static byte[] Hex2Binary(string hexvalue) {
-            byte[] binaryval = new byte[hexvalue.Length/2];
-            for (int i = 0; i < hexvalue.Length; i+=2) {
+            byte[] binaryval = new byte[hexvalue.Length / 2];
+            for (int i = 0; i < hexvalue.Length; i += 2) {
                 string byteString = hexvalue.Substring(i, 2);
                 byte b = Convert.ToByte(byteString, 16);
-                binaryval[i>>1] = b;
+                binaryval[i >> 1] = b;
             }
             return binaryval;
         }
@@ -193,8 +189,8 @@ namespace DoublepulsarDetectionWPF {
                         infected = 0;
                     }
                 }
-                
-            } catch(Exception ex) {
+
+            } catch (Exception ex) {
                 _l.Warn($"[*] [{ip}] Exception occured: {ex.Message}");
             } finally {
                 s.Close();
@@ -203,4 +199,3 @@ namespace DoublepulsarDetectionWPF {
         }
     }
 }
-

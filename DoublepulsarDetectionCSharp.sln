@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublepulsarDetectionWPF", "DoublepulsarDetectionWPF\DoublepulsarDetectionWPF.csproj", "{8C050EE9-EF2D-4F69-8248-B9530510790B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublepulsarDetectionLib", "DoublepulsarDetectionLib\DoublepulsarDetectionLib.csproj", "{07021060-A4C7-4F4D-9432-61B74F6653B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublepulsarDetectionCmd", "DoublepulsarDetectionCmd\DoublepulsarDetectionCmd.csproj", "{7E16BDE4-DEE1-4070-A4AC-8B06C3268673}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8C050EE9-EF2D-4F69-8248-B9530510790B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C050EE9-EF2D-4F69-8248-B9530510790B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C050EE9-EF2D-4F69-8248-B9530510790B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07021060-A4C7-4F4D-9432-61B74F6653B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07021060-A4C7-4F4D-9432-61B74F6653B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07021060-A4C7-4F4D-9432-61B74F6653B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07021060-A4C7-4F4D-9432-61B74F6653B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E16BDE4-DEE1-4070-A4AC-8B06C3268673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E16BDE4-DEE1-4070-A4AC-8B06C3268673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E16BDE4-DEE1-4070-A4AC-8B06C3268673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E16BDE4-DEE1-4070-A4AC-8B06C3268673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

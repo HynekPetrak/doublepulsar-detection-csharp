@@ -5,8 +5,8 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DoublepulsarDetectionWPF {
-    class IPRange {
+namespace DoublepulsarDetectionLib {
+    public class IPRange {
         public IPRange(string ipRange) {
             if (ipRange == null)
                 throw new ArgumentNullException();
@@ -103,4 +103,3 @@ namespace DoublepulsarDetectionWPF {
         private byte[] endIP;
     }
 }
-
